@@ -1,13 +1,13 @@
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Desarrollar y comparar distintos modelos predictivos para estimar el volumen futuro de violaciones por exceso de velocidad en zonas escolares, utilizando datos históricos abiertos de la Ciudad de Chicago.
 
 ---
 
-## 🧪 Tecnologías y Herramientas
+## Tecnologías y Herramientas
 
 - Python 3.x
 - Pandas, NumPy, Matplotlib, Seaborn
@@ -18,7 +18,7 @@ Desarrollar y comparar distintos modelos predictivos para estimar el volumen fut
 
 ---
 
-## ⚙️ Modelos Implementados
+## Modelos Implementados
 
 | Modelo                  | Frecuencia | Mejor MAPE | Comentario |
 |-------------------------|------------|-------------|------------|
@@ -29,7 +29,7 @@ Desarrollar y comparar distintos modelos predictivos para estimar el volumen fut
 
 ---
 
-## 📊 Resultados
+## Resultados
 
 - **Mejor modelo general:** Prophet con frecuencia semanal desde 2021.
 - **Mejor modelo tradicional:** Holt-Winters con estacionalidad semanal (52). ***Este se debe ajustar, aunque dio valores "Buenos" parecen engañosos
@@ -38,7 +38,7 @@ Desarrollar y comparar distintos modelos predictivos para estimar el volumen fut
 
 ---
 
-## 📌 Conclusiones
+## Conclusiones
 
 - La calidad del preprocesamiento fue clave para el rendimiento de los modelos.
 - El análisis de series de tiempo resultó más efectivo que los modelos estructurados.
@@ -46,7 +46,7 @@ Desarrollar y comparar distintos modelos predictivos para estimar el volumen fut
 
 ---
 
-## 🔮 Recomendaciones
+## Recomendaciones
 
 - Incorporar variables externas (feriados, clima, eventos).
 - Automatizar el pipeline de actualización del modelo.
@@ -54,13 +54,13 @@ Desarrollar y comparar distintos modelos predictivos para estimar el volumen fut
 
 ---
 
-## 🔗 Datos Abiertos
+## Datos Abiertos
 
 - [Speed Camera Violations - City of Chicago](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Bryan Leon  
 Maestría en Analítica de Datos  
